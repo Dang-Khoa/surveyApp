@@ -1,0 +1,22 @@
+{
+	"short_name": "Survey App",
+	"name": "Umfrage App",
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff",
+	"icons" : [
+		{
+			"src": "images/surveyIcon-192x192.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "any maskable"
+		},
+		{
+			"src": "images/surveyIcon-512x512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "any maskable"
+		}
+	]
+}

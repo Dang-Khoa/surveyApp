@@ -1,0 +1,25 @@
+.App {
+  margin-top: 15px;
+}
+
+@media all and (max-width: 700px) {
+  .container {
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    transition: all 500ms ease;
+  }
+}
+
+@media all and (min-width: 701px){
+  .container {
+    position: relative;
+    top: 30px;
+    width: 700px;
+    height: 700px;
+    z-index: -10;
+    transition: all 500ms ease;
+  }
+}
